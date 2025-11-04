@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/payments",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$[?(@.amount == 100)]" }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": { "Content-Type": "application/json" },
+    "bodyFileName": "payment-ok.json"
+  }
+}

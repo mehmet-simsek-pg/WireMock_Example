@@ -1,0 +1,8 @@
+{
+  "request": { "method": "PUT", "url": "/payments/10" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "bodyFileName": "payment-updated.json"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "request": { "method": "GET", "url": "/unstable" },
+  "response": {
+    "status": 500,
+    "bodyFileName": "error-500.json"
+  }
+}

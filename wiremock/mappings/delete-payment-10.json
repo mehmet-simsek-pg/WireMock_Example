@@ -1,0 +1,7 @@
+{
+  "request": { "method": "DELETE", "url": "/payments/10" },
+  "response": {
+    "status": 204,
+    "headers": { "X-Operation-Status": "Deleted" }
+  }
+}

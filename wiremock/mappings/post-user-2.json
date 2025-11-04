@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/users",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.name" },
+      { "matchesJsonPath": "$.email" }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": { "Content-Type": "application/json" },
+    "bodyFileName": "user-created.json"
+  }
+}

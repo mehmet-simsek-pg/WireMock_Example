@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/users/2",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.id", "equalToJson": "2" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "bodyFileName": "user-updated.json"
+  }
+}
